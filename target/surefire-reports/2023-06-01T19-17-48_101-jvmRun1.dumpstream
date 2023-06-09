@@ -1,0 +1,25 @@
+# Created at 2023-06-01T19:17:49.678
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2023-06-01T19:17:51.932
+Unexpected IOException with stream: 2023-06-01 19:17:51.931  INFO 6884 --- [           main] c.l.LoveStoryServerApplicationTests      : Started LoveStoryServerApplicationTests in 2.468 seconds (JVM running for 3.521)
+
+
+# Created at 2023-06-01T19:17:51.954
+Unexpected IOException: 5,1,cn.ljcljc.LoveStoryServerApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2023-06-01T19:17:52.235
+Unexpected IOException: 6,1,cn.ljcljc.LoveStoryServerApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2023-06-01T19:17:52.238
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,cn.ljcljc.LoveStoryServerApplicationTests,null,null,null
+
+
